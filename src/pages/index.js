@@ -23,6 +23,14 @@ const IndexPage = () => (
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </p>
+    <div>
+      <a class="donate-with-crypto"
+         href="https://commerce.coinbase.com/checkout/202c8060-186e-4523-a8f2-bd3fd65ae36a">
+        Donate with Crypto
+      </a>
+      <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807">
+      </script>
+    </div>
   </Layout>
 )
 
